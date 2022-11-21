@@ -1,10 +1,10 @@
-let name = prompt('What is your name?')
-let age = prompt(`${name} how old are you? `)
+let name = prompt('Как вас зовут?')
+let age = prompt(`${name} сколько тебе лет? `)
 if (age >= 18){
-    alert("you can recieve a driving license")
+    alert("Вы можете получить водительское удостоверение")
 }else{
-    alert("you are not allowed to get driving license")
-    alert(`${18-age} more years left to get driving license`)
+    alert("Вы не можете получить водительское удостоверение")
+    alert(`До получения водительских прав осталось еще ${18-age} лет `)
 }
 
 
